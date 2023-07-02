@@ -1,0 +1,32 @@
+body {
+    background-color: #FDF5DF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: cursive;
+}
+div {
+    background-color: #5EBEC4;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    border: solid #40969c;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+}
+h1 {
+    color: #F92C85;
+    text-align: center;
+}
+p {
+    color: #F92C85;
+}
+#palindrome {
+    margin: 10px 0px;
+    width: 80%;
+    height: 25px;
+    padding: 5px 10px;
+    
+}

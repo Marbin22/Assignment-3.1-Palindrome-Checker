@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"><!--links the style sheet to the html to give it a design-->
+    <script src="Palindrom_checker.js"></script><!--this connects the html to the java script file with the necessary function-->
+</head>
+<body>
+    <div><!--this hold all content in page-->
+
+        <h1>Palindrome Checker</h1><!--title or app-->
+        <p> Enter word or sentence to check if its a palindrome</p><!--description of the app or webpage-->
+    
+        <input type="text"  id="palindrome" placeholder="Enter Palendrome"> <!--input field for text -->
+        <br><!--break-->
+        <input type="submit" onclick="palin()" ><!--the submit button to check if it a palindrome-->
+        
+        <p id="result"></p><!--displays if its a palindrome or not-->
+    </div>
+      
+</body>
+</html>
+
